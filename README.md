@@ -1,6 +1,6 @@
 # npmtest-rcedit
 
-#### test coverage for  [rcedit (v0.8.0)](https://github.com/electron/node-rcedit#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rcedit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rcedit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rcedit.svg)](https://travis-ci.org/npmtest/node-npmtest-rcedit)
+#### basic test coverage for  [rcedit (v0.8.0)](https://github.com/electron/node-rcedit#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rcedit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rcedit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rcedit.svg)](https://travis-ci.org/npmtest/node-npmtest-rcedit)
 
 #### Node module to edit resources of exe
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rcedit/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rcedit/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rcedit/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rcedit/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rcedit/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rcedit/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rcedit/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rcedit/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rcedit/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rcedit/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rcedit/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rcedit/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
         "lint": "standard",
         "test": "mocha test/*.js && npm run lint"
     },
-    "version": "0.8.0"
+    "version": "0.8.0",
+    "bin": {}
 }
 ```
 
